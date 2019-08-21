@@ -1,0 +1,76 @@
+﻿@model Project2.Models.Models.Supplier
+@{
+    ViewBag.Title = "Update Supplier";
+    Layout = "~/Views/Shared/_MyTheme.cshtml";
+}
+
+<div class="row" style="margin:3px;">
+    <div class="row">
+        <h1 style="font-family:'Times New Roman', Times, serif;
+                       color:green;
+                       width:100%;
+                       background-color:cornflowerblue;
+                       text-align:center">
+            Update Supplier Information
+        </h1>
+    </div>
+    <div style="background-color:lightyellow">
+        <div class="row" style="margin:5px; padding:25px">
+
+           
+            <div class="col-lg-3"></div>
+            <div class="col-md-6">
+
+                @{
+                    if (ViewBag.SuccessMsg != null)
+                    {
+                        <h5 style="color:green">@ViewBag.SuccessMsg</h5>
+
+                    }
+                    if (ViewBag.FailMsg != null)
+                    {
+                        <h5 style="color:red">@ViewBag.FailMsg</h5>
+                    }
+                }
+
+                <form method="post">
+
+                    <div class="row">
+                        <div class="col-md-2"><h5>Code</h5></div>
+                        <div class="col-md-6"><input class="form-control" type="text" name="Code" value="@Model.Code" /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2"><h5>Name</h5></div>
+                        <div class="col-md-6"><input class="form-control" type="text" name="Name" value="@Model.Name" /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2"><h5>Address</h5></div>
+                        <div class="col-md-6"><input class="form-control" type="text" name="Address" value="@Model.Address" /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2"><h5>Email</h5></div>
+                        <div class="col-md-6"><input class="form-control" type="text" name="Email" value="@Model.Email" /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2"><h5>Contact</h5></div>
+                        <div class="col-md-6"><input class="form-control" type="text" name="Contact" value="@Model.Contact" /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2"><h5>Contact Person</h5></div>
+                        <div class="col-md-6"><input class="form-control" type="text" name="ContactPerson" value="@Model.ContactPerson" /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2"><h5></h5></div>
+                        <div class="col-md-6"><input type="submit" name="Update" value="Update" /></div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-3"></div>
+
+
+        </div>
+        </div>
+</div>
+
+        
+    

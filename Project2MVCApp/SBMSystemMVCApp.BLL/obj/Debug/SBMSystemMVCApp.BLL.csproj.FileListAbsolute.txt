@@ -1,0 +1,34 @@
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.BLL.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.BLL.pdb
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.Models.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.Repository.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.DatabaseContext.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\EntityFramework.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.Models.pdb
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.Repository.pdb
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.Repository.dll.config
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.DatabaseContext.pdb
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.DatabaseContext.dll.config
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\EntityFramework.xml
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\obj\Debug\SBMSystemMVCApp.BLL.csprojAssemblyReference.cache
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\obj\Debug\SBMSystemMVCApp.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\obj\Debug\SBMSystemMVCApp.BLL.csproj.CopyComplete
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\obj\Debug\SBMSystemMVCApp.BLL.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.BLL\obj\Debug\SBMSystemMVCApp.BLL.pdb
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.BLL.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.BLL.pdb
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.Models.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.Repository.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.DatabaseContext.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\EntityFramework.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.Models.pdb
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.Repository.pdb
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.Repository.dll.config
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.DatabaseContext.pdb
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\SBMSystemMVCApp.DatabaseContext.dll.config
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\bin\Debug\EntityFramework.xml
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\obj\Debug\SBMSystemMVCApp.BLL.csprojAssemblyReference.cache
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\obj\Debug\SBMSystemMVCApp.BLL.csproj.CoreCompileInputs.cache
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\obj\Debug\SBMSystemMVCApp.BLL.csproj.CopyComplete
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\obj\Debug\SBMSystemMVCApp.BLL.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.BLL\obj\Debug\SBMSystemMVCApp.BLL.pdb

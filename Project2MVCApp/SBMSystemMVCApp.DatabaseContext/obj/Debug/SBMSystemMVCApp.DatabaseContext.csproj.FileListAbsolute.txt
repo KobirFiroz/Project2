@@ -1,0 +1,42 @@
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\SBMSystemMVCApp.DatabaseContext.dll.config
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\SBMSystemMVCApp.DatabaseContext.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\SBMSystemMVCApp.DatabaseContext.pdb
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\EntityFramework.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\SBMSystemMVCApp.Models.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\SBMSystemMVCApp.Models.pdb
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\EntityFramework.xml
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.csprojAssemblyReference.cache
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.Migrations.purchase_is_added.resources
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.csproj.GenerateResource.cache
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.csproj.CoreCompileInputs.cache
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.csproj.CopyComplete
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.pdb
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.Migrations.customerCodeRequired.resources
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.Migrations.customerUpdated.resources
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.Migrations.customerUpdated1.resources
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.Migrations.supplierUpdated.resources
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.Migrations.supplierUpdated1.resources
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\SBMSystemMVCApp.DatabaseContext.dll.config
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\SBMSystemMVCApp.DatabaseContext.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\SBMSystemMVCApp.DatabaseContext.pdb
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\EntityFramework.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\SBMSystemMVCApp.Models.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\SBMSystemMVCApp.Models.pdb
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\EntityFramework.xml
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.csprojAssemblyReference.cache
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.Migrations.purchase_is_added.resources
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.Migrations.customerCodeRequired.resources
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.Migrations.customerUpdated.resources
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.Migrations.customerUpdated1.resources
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.Migrations.supplierUpdated.resources
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.Migrations.supplierUpdated1.resources
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.csproj.GenerateResource.cache
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.csproj.CoreCompileInputs.cache
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.csproj.CopyComplete
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.DatabaseContext\obj\Debug\SBMSystemMVCApp.DatabaseContext.pdb

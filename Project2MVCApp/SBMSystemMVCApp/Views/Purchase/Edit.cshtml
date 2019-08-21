@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Edit Purcher";
+    Layout = "~/Views/Shared/_MyTheme.cshtml";
+}
+
+<div class="row">
+
+
+    <h2 style="background-color:bisque;text-align:center">Edit Purchase</h2>
+    <div class="form-horizontal">
+        <div class="row">
+
+            <div class="col-lg-3"></div>
+            <div class="col-md-9">
+                <form method="post">
+
+
+                    <div class="row">
+                        <div class="col-md-1" style="text-align:center">Supplier</div>
+                        <div class="col-6" style="border:hidden;padding-bottom:5px;"><input class="col-12" type="text" name="Supplier" /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1" style="text-align:center">Bill No</div>
+                        <div class="col-6" style="border:hidden;padding-bottom:5px;"><input class="col-12" type="text" name="BillNo" /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1" style="text-align:center">Product</div>
+                        <div class="col-6" style="border:hidden;padding-bottom:5px;"><input class="col-12" type="text" name="Product" /></div>
+                    </div>
+                   
+                    <div class="row">
+                        <div class="col-md-1" style="text-align:center"></div>
+                        <div class="col-6" style="border:hidden;padding-bottom:5px;"><input type="submit" name="Search" value="Search" /></div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+    </div>
+    <div>
+        @if (Model != null)
+        {
+            if (Model.Count != 0)
+            {
+                <h3 style="text-align:center">Purchase Informations</h3>
+            }
+            else
+            {
+                <h5 style="color:red; font-size:medium;margin-left:300px">No Purchase Found</h5>
+            }
+            int sl = 1;
+                <div class="row" style="margin-left:5px">
+                    <div class="col-md-1">SL</div>
+                    <div class="col-md-1">Date</div>
+                    <div class="col-md-1">BillNo</div>
+                    <div class="col-md-2">SupplierId</div>
+                    <div class="col-md-2">ProductId</div>
+                    <div class="col-md-2">ManufacturedDate</div>
+                    <div class="col-md-1">ExpireDate</div>
+                    <div class="col-md-1">Quantity</div>
+                    <div class="col-md-1">UnitPrice</div>
+                    <div class="col-md-1">MRP</div>
+                    <div class="col-md-1">Remarks</div>
+                   
+                </div>
+            foreach (var purchase in Model)
+            {
+            <form class="row" style="margin-left:5px">
+                <div class="col-md-1">@(sl++)</div>
+                <div class="col-md-1">@purchase.Date</div>
+                <div class="col-md-1">@purchase.BillNo</div>
+                <div class="col-md-2">@purchase.SupplierId</div>
+                <div class="col-md-2">@purchase.ProductId</div>
+                <div class="col-md-2">@purchase.ManufacturedDate</div>
+                <div class="col-md-1">@purchase.ExpireDate</div>
+                <div class="col-md-1">@purchase.Quantity</div>
+                <div class="col-md-1">@purchase.UnitPrice</div>
+                <div class="col-md-1">@purchase.MRP</div>
+                <div class="col-md-1">@purchase.Remarks</div>
+
+                <div class="col-md-1">@Html.ActionLink("Edit", "Update", "Purchase", new { id = purchase.Id }, null)</div>
+            </form>
+            }
+        }
+
+    </div>
+
+
+</div>
+

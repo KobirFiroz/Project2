@@ -1,0 +1,12 @@
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.Models\bin\Debug\SBMSystemMVCApp.Models.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.Models\bin\Debug\SBMSystemMVCApp.Models.pdb
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.Models\obj\Debug\SBMSystemMVCApp.Models.csprojAssemblyReference.cache
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.Models\obj\Debug\SBMSystemMVCApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.Models\obj\Debug\SBMSystemMVCApp.Models.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp.Models\obj\Debug\SBMSystemMVCApp.Models.pdb
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.Models\bin\Debug\SBMSystemMVCApp.Models.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.Models\bin\Debug\SBMSystemMVCApp.Models.pdb
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.Models\obj\Debug\SBMSystemMVCApp.Models.csprojAssemblyReference.cache
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.Models\obj\Debug\SBMSystemMVCApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.Models\obj\Debug\SBMSystemMVCApp.Models.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp.Models\obj\Debug\SBMSystemMVCApp.Models.pdb

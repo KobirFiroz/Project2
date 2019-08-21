@@ -1,0 +1,142 @@
+﻿@model Project2.Models.ProductAddViewModel
+
+@{
+    ViewBag.Title = "Add Product";
+    Layout = "~/Views/Shared/_MyTheme.cshtml";
+}
+
+
+
+@using (Html.BeginForm()) 
+{
+   @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+
+    <div class="panel" style="background-color:lightyellow">
+
+        <div class="panel-heading"><h3 style=" color:green">Product Add</h3></div>
+        <div class="panel-body">
+            <div class="row" style="margin:5px; padding:25px">
+               
+                <div class="col-lg-3"></div>
+                <div class="col-md-6">
+
+                    <div>
+                        @if (ViewBag.SuccessMsg != null)
+                        {
+                            <h5 style="color:green; font-size:medium;">@ViewBag.SuccessMsg</h5>
+                        }
+
+                        @if (ViewBag.FailMsg != null)
+                        {
+                            <h5 style="color:red;font-size:medium;">@ViewBag.FailMsg</h5>
+                        }
+                    </div>
+
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Code, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Code, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Code, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Name, "Product Name", htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+
+
+                    
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.CategoryId, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+
+                            @Html.DropDownListFor(model => model.CategoryId, Model.Categories, new { @class = "form-control" })
+                            <button style="border-radius: 50%;margin-left:410px"><img src="~/image/p.png" /></button>
+                            @Html.ValidationMessageFor(model => model.CategoryId, "", new { @class = "text-danger" })
+
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.ReorderLevel, "Reorder Level", htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.ReorderLevel, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.ReorderLevel, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    @*@<div class="form-group">
+            @Html.LabelFor(model => model.ImageProduct, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ImageProduct, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ImageProduct, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Save" class="btn btn-default" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+                }
+                <div class="row" style="background-color:palegoldenrod">
+                    <div>
+                        @if (Model != null && Model.Products.Count() != 0)
+                        {
+                            <h3 style="text-align:center">Products</h3>
+                            int sl = 1;
+                            <div class="row" style="margin-left:10px">
+                                <div class="col-md-1" style="background-color:aqua;color:black">SL</div>
+                                <div class="col-md-1" style="background-color:coral;color:black">Code</div>
+                                <div class="col-md-2" style="background-color:forestgreen;color:black">Name</div>
+                                <div class="col-md-2" style="background-color:lightyellow;color:black">Category</div>
+                                <div class="col-md-1" style="background-color:darkgoldenrod;color:black">Reorder Level</div>
+                                <div class="col-md-2" style="background-color:gold;color:black">Description</div>
+                                <div class="col-md-2"style="background-color:lightyellow;color:black">Action</div>
+                            </div>
+                            foreach (var product in Model.Products)
+                            {
+                                <form class="row" style="margin-left:10px">
+                                    <div class="col-md-1">@(sl++)</div>
+                                    <div class="col-md-1">@product.Code</div>
+                                    <div class="col-md-2">@product.Name</div>
+                                    <div class="col-md-2">@product.Category.Name</div>
+                                    <div class="col-md-1">@product.ReorderLevel</div>
+                                    <div class="col-md-2">@product.Description</div>
+                                    <div class="col-md-2">
+                                        <div class="col-md-2">@Html.ActionLink("Edit", "Update", "Product", new { id = product.Id }, null)</div>
+                                        <div class="col-md-2" id="Delete">@Html.ActionLink("Delete", "Delete", "Product", new { id = product.Id }, null)</div>
+                                    </div>
+                                </form>
+                            }
+                        }
+
+                    </div>
+
+
+                </div>

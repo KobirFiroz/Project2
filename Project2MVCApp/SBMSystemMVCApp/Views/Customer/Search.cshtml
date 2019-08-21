@@ -1,0 +1,97 @@
+﻿@model Project2.Models.CustomerSearchViewModel
+@{
+    ViewBag.Title = "Search Customer";
+    Layout = "~/Views/Shared/_MyTheme.cshtml";
+}
+
+<div class="row">
+    <div class="col-2"></div>
+    <div class="col-md-8">
+        <h2 style="background-color:bisque;text-align:center">Search Customer</h2>
+        <form method="post">
+            <div class="form-group row">
+                @Html.LabelFor(c => c.Code, htmlAttributes: new { @class = "control-label col-sm-1" })
+                <div class="col-sm-5">
+                    @Html.TextBoxFor(c => c.Code, htmlAttributes: new { @class = "form-control", placeholder = "Code" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(c => c.Name, htmlAttributes: new { @class = "control-label col-sm-1" })
+                <div class="col-sm-5">
+                    @Html.TextBoxFor(c => c.Name, htmlAttributes: new { @class = "form-control", placeholder = "Name" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(c => c.Address, null, htmlAttributes: new { @class = "control-label col-sm-1" })
+                <div class="col-sm-5">
+                    @Html.TextBoxFor(c => c.Address, null, htmlAttributes: new { @class = "form-control", placeholder = "Address" })
+                </div>
+            </div>
+
+            <div class="form-group row">
+                @Html.LabelFor(c => c.Email, null, htmlAttributes: new { @class = "control-label col-sm-1" })
+                <div class="col-sm-5">
+                    @Html.TextBoxFor(c => c.Email, null, htmlAttributes: new { @class = "form-control", placeholder = "Email" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(c => c.Contact, null, htmlAttributes: new { @class = "control-label col-sm-1" })
+                <div class="col-sm-5">
+                    @Html.TextBoxFor(c => c.Contact, null, htmlAttributes: new { @class = "form-control", placeholder = "Contact" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(c => c.LoyaltyPoint, "Loyalty Point", htmlAttributes: new { @class = "control-label col-sm-1" })
+                <div class="col-sm-5">
+                    @Html.TextBoxFor(c => c.LoyaltyPoint, null, htmlAttributes: new { @class = "form-control", placeholder = "Loyalty Point" })
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-1">Action</label>
+                <button type="submit" class="btn btn-success col-sm-offset-1" value="Save">Search</button>
+            </div>
+        </form>
+        <div>
+            @if (Model != null)
+            {
+                if (Model.Customers.Count()!=0)
+                {
+                    <h3 style="text-align:center">Customer Informations</h3>
+                }
+                else
+                {
+                    <h5 style="color:red; font-size:medium;">No Customer Found</h5>
+                }
+                int sl = 1;
+                <div class="form-group row">
+                    @Html.Label("SL", htmlAttributes: new { @class = "control-label col-sm-1" })
+                    @Html.Label("Code", htmlAttributes: new { @class = "control-label col-sm-1" })
+                    @Html.Label("Name", htmlAttributes: new { @class = "control-label col-sm-2" })
+                    @Html.Label("Address", htmlAttributes: new { @class = "control-label col-sm-2" })
+                    @Html.Label("Email", htmlAttributes: new { @class = "control-label col-sm-2" })
+                    @Html.Label("Contact", htmlAttributes: new { @class = "control-label col-sm-2" })
+                    @Html.Label("LoyaltyPoint", htmlAttributes: new { @class = "control-label col-sm-1" })
+                </div>
+                foreach (var customer in Model.Customers)
+                {
+                    <div class="form-group row">
+                        @Html.Label((sl++).ToString(), htmlAttributes: new { @class = "control-label col-sm-1" })
+                        @Html.Label(customer.Code, htmlAttributes: new { @class = "control-label col-sm-1" })
+                        @Html.Label(customer.Name, htmlAttributes: new { @class = "control-label col-sm-2" })
+                        @Html.Label(customer.Address, htmlAttributes: new { @class = "control-label col-sm-2" })
+                        @Html.Label(customer.Email, htmlAttributes: new { @class = "control-label col-sm-2" })
+                        @Html.Label(customer.Contact, htmlAttributes: new { @class = "control-label col-sm-2" })
+                        @Html.Label(customer.LoyaltyPoint.ToString(), htmlAttributes: new { @class = "control-label col-sm-1" })
+                    </div>
+                    
+                }
+            }
+
+        </div>
+    </div>
+    <div class="col-2"></div>
+</div>
+
+
+        
+    

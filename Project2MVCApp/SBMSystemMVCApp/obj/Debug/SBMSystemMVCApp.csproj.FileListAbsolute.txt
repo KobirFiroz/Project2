@@ -1,0 +1,126 @@
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.dll.config
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.pdb
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\csc.exe
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\csc.exe.config
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\csc.rsp
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\csi.exe
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\csi.rsp
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\System.AppContext.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\vbc.exe
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\vbc.exe.config
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\vbc.rsp
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\EntityFramework.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.BLL.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.Models.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Helpers.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Mvc.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Razor.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Webpages.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.Repository.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.DatabaseContext.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.BLL.pdb
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.Models.pdb
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\EntityFramework.xml
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Razor.xml
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Webpages.xml
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Helpers.xml
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Mvc.xml
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.Repository.pdb
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.Repository.dll.config
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.DatabaseContext.pdb
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.DatabaseContext.dll.config
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\obj\Debug\SBMSystemMVCApp.csprojAssemblyReference.cache
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\obj\Debug\SBMSystemMVCApp.csproj.CoreCompileInputs.cache
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\obj\Debug\SBMSystemMVCApp.csproj.CopyComplete
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\obj\Debug\SBMSystemMVCApp.dll
+C:\Users\Web App Develop .Net\Desktop\BITM-.NET\SBMSystemMVCApp\SBMSystemMVCApp\obj\Debug\SBMSystemMVCApp.pdb
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.dll.config
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.pdb
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\csc.exe
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\csc.exe.config
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\csc.rsp
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\csi.exe
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\csi.rsp
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\System.AppContext.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\vbc.exe
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\vbc.exe.config
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\vbc.rsp
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\EntityFramework.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\EntityFramework.SqlServer.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.BLL.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.Models.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Helpers.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Mvc.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Razor.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Webpages.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.Repository.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.DatabaseContext.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.BLL.pdb
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.Models.pdb
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\EntityFramework.xml
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\EntityFramework.SqlServer.xml
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Razor.xml
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Webpages.xml
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Helpers.xml
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\System.Web.Mvc.xml
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.Repository.pdb
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.Repository.dll.config
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.DatabaseContext.pdb
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\bin\SBMSystemMVCApp.DatabaseContext.dll.config
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\obj\Debug\SBMSystemMVCApp.csprojAssemblyReference.cache
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\obj\Debug\SBMSystemMVCApp.csproj.CoreCompileInputs.cache
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\obj\Debug\SBMSystemMVCApp.csproj.CopyComplete
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\obj\Debug\SBMSystemMVCApp.dll
+C:\Users\FIROZ KOBIR\Desktop\SBMSystemMVCApp\SBMSystemMVCApp\obj\Debug\SBMSystemMVCApp.pdb

@@ -1,0 +1,308 @@
+﻿@model Project2.Models.PurchaseAddViewModel
+
+@{
+    ViewBag.Title = "Add Purchase";
+    Layout = "~/Views/Shared/_MyTheme.cshtml";
+
+}
+
+<h2>Add</h2>
+
+    
+<form method="post">
+    <h4>Purchase</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-horizontal">
+
+
+
+        <div class="panel" style="background-color:lightyellow">
+
+            <div class="panel-heading"><h3 style=" color:green">Supplier</h3></div>
+            <div class="panel-body">
+                <div class="row" style="margin:5px; padding:25px">
+
+                    <div class="col-lg-3"></div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Date, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.BillNo, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.BillNo, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.BillNo, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.SupplierId, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.DropDownListFor(model => model.SupplierId, Model.SupplierListItem, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.SupplierId, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-lg-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <br /><br />
+
+
+    <div class="panel" style="background-color:lightyellow">
+
+        <div class="panel-heading"><h3 style=" color:green">Product</h3></div>
+        <div class="panel-body">
+            <div class="row" style="margin:5px; padding:25px">
+
+                <div class="col-lg-3"></div>
+                <div class="col-md-6">
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.ProductId, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.DropDownListFor(model => model.ProductId, Model.ProductListItem, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.ProductId, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.Label("Code", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.TextBox("Code", "")
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.ManufacturedDate, "Manufactured Date", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.ManufacturedDate, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.ManufacturedDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.ExpireDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.ExpireDate, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.ExpireDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Quantity, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Quantity, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.UnitPrice, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.UnitPrice, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.UnitPrice, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.Label("Total Price", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.TextBox("TotalPrice", "")
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.Label("Previous Cost Price (TK)", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.TextBox("PreviousCostPrice", "")
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.Label("Previous MRP (TK)", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.TextBox("PreviousMRP", "")
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.MRP, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.MRP, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.MRP, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Remarks, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Remarks, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Remarks, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="button" id="AddButton" value="Add" class="btn btn-default" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                       
+ </div>
+
+                    <div class="row">
+                        <table class="table table-bordered table-striped table-hover table-responsive">
+                            <thead>
+                                <tr>
+                                    <td>SL</td>
+                                    <td>Product</td>
+                                    <td>Manufactured Date</td>
+                                    <td>Expire Date</td>
+                                    <td>Quantity</td>
+                                    <td>Unit Price (TK)</td>
+                                    <td>Total Price (TK)</td>
+                                    <td>New MRP (TK)</td>
+                                    <td>Remarks</td>
+                                    <td>Action</td>
+                                </tr>
+                            </thead>
+                            <tbody id="tbProduct"></tbody>
+                        </table>
+
+
+                       
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" id="Submit" value="Submit" class="btn btn-default" />
+                        </div>
+                    </div>
+</form>
+@section Scripts
+{
+    <script>
+        var ProductName = "";
+        $('#ProductId').change(() => {
+            var productId = $('#ProductId').val();
+            var jsonData = { productId: productId };
+            $.ajax({
+                url: "/Purchase/GetProduct",
+                type: "POST",
+                data: jsonData,                
+                success: (product) => {
+                    $('#Code').val(product.Code);
+                    $('#PreviousCostPrice').val(product.UnitPrice);
+                    $('#PreviousMRP').val(product.CurrentMRP);
+                    ProductName = product.Name;
+                },
+                error: (response) => {}
+            });
+            if (productId == "") {
+                $('#Code').val("");
+                $('#PreviousCostPrice').val("");
+                $('#PreviousMRP').val("");
+            }
+        });
+
+
+        $('#Quantity').change(() => {
+            var quantity = $('#Quantity').val();
+            var unitPrice = $('#UnitPrice').val();
+            var totalPrice = quantity * unitPrice;
+            $('#TotalPrice').val(totalPrice);
+        });
+
+
+        $('#UnitPrice').change(() => {
+            var quantity = $('#Quantity').val();
+            var unitPrice = $('#UnitPrice').val();
+            var totalPrice = quantity * unitPrice;
+            $('#TotalPrice').val(totalPrice);
+            $('#MRP').val(unitPrice*(1+0.25));
+        });
+
+
+
+        var index = 0;
+        $('#AddButton').click(() => {
+            var aProduct = getProduct();
+
+            var row = addRow(aProduct);
+
+            $('#tbProduct').append(row);
+        });
+
+        function getProduct() {
+            var productId = $('#ProductId').val();
+            var manufacturedDate = $('#ManufacturedDate').val();
+            var expireDate = $('#ExpireDate').val();
+            var quantity = $('#Quantity').val();
+            var unitPrice = $('#UnitPrice').val();
+            var totalPrice = $('#TotalPrice').val();
+            var newMRP = $('#MRP').val();
+            var remarks = $('#Remarks').val();
+            return { productId: productId, manufacturedDate: manufacturedDate, expireDate: expireDate, quantity: quantity, unitPrice: unitPrice, totalPrice: totalPrice, newMRP: newMRP, remarks: remarks };
+        }
+        function addRow(aProduct) {
+            var row = '';
+
+            var hiddenProduct = '<input type="hidden" name="Purchases[' + index + '].ProductId" value="' + aProduct.productId + '" />';
+            var hiddenManufacturedDate = '<input type="hidden" name="Purchases[' + index + '].ManufacturedDate" value="' + aProduct.manufacturedDate + '" />';
+            var hiddenExpireDate = '<input type="hidden" name="Purchases[' + index + '].ExpireDate" value="' + aProduct.expireDate + '" />';
+            var hiddenQuantity = '<input type="hidden" name="Purchases[' + index + '].Quantity" value="' + aProduct.quantity + '" />';
+            var hiddenUnitPrice = '<input type="hidden" name="Purchases[' + index + '].UnitPrice" value="' + aProduct.unitPrice + '" />';
+            var hiddenTotalPrice = '<input type="hidden" name="Purchases[' + index + '].TotalPrice" value="' + aProduct.totalPrice + '" />';
+            var hiddenMRP = '<input type="hidden" name="Purchases[' + index + '].MRP" value="' + aProduct.newMRP + '" />';
+            var hiddenRemarks = '<input type="hidden" name="Purchases[' + index + '].Remarks" value="' + aProduct.remarks + '" />';
+            
+            var tstart = '<tr>';
+            var sl = '<td>' + (index + 1) + '</td>';
+            var product = '<td>' + hiddenProduct + ProductName + '</td>';
+            var manufacturedDate = '<td>' + hiddenManufacturedDate + aProduct.manufacturedDate + '</td>';
+            var expireDate = '<td>' + hiddenExpireDate + aProduct.expireDate + '</td>';
+            var quantity = '<td>' + hiddenQuantity + aProduct.quantity + '</td>';
+            var unitPrice = '<td>' + hiddenUnitPrice + aProduct.unitPrice + '</td>';
+            var totalPrice = '<td>' + hiddenTotalPrice + aProduct.totalPrice + '</td>';
+            var newMRP = '<td>' + hiddenMRP + aProduct.newMRP + '</td>';
+            var remarks = '<td>' + hiddenRemarks + aProduct.remarks + '</td>';
+            
+            var Edit = '<a href="Purchase/Edit?id=' + index + '>Edit</a>';
+            var Delete = '<a href="Purchase/Edit?id=' + index + '>Delete</a>';
+            var action = '<td><div class="col-md-2">' + Edit + '</div><div class="col-md-2">' + Delete +'</div></td>';    
+            var tend = '</tr> ';
+            row = tstart + sl + product + manufacturedDate + expireDate + quantity + unitPrice + totalPrice + newMRP + remarks + action + tend;
+            index++;
+            return row;
+        }
+        //$('#Submit').click(() => {
+        //    index = 0;
+        //});
+        
+
+    </script>
+}
+
+
+

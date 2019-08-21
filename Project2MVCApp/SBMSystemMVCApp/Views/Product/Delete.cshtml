@@ -1,0 +1,97 @@
+﻿@model Project2MVCApp.Models.Models.Product
+
+@{
+    ViewBag.Title = "Delete Product";
+    Layout = "~/Views/Shared/_MyTheme.cshtml";
+}
+
+
+
+
+<div>
+    <div class="panel" style="background-color:lightyellow">
+
+        <div class="panel-heading"><h3 style=" color:green">Product Delete</h3></div>
+        <div class="panel-body">
+            <h3>Are you sure you want to delete this?</h3>
+            <div class="row" style="margin:5px; padding:25px">
+
+                <div class="col-lg-3"></div>
+                <div class="col-md-6">
+                    <hr />
+                    <dl class="dl-horizontal">
+                        @Html.HiddenFor(model => model.Id)
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Code)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Code)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Name)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Name)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.CategoryId)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.CategoryId)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.ReorderLevel)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.ReorderLevel)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.ImageProduct)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.ImageProduct)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Description)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Description)
+                        </dd>
+
+                    </dl>
+
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-actions no-color">
+                            <input type="submit" value="Delete" class="btn btn-default" style="margin-left:40px"/>
+                        </div>
+                    }
+                    <div>
+                        @if (ViewBag.SuccessMsg != null)
+                        {
+                            <h5 style="color:green; font-size:medium;">@ViewBag.SuccessMsg</h5>
+                        }
+
+                        @if (ViewBag.FailMsg != null)
+                        {
+                            <h5 style="color:red;font-size:medium;">@ViewBag.FailMsg</h5>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
